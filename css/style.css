@@ -36,13 +36,15 @@ body {
   height: 100px;
 }
 
-.section-sales .card-img-top, .section-products .card-img-top {
+.section-sales .card-img-top, 
+.section-products .card-img-top {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-.section-news .carousel .carousel-item, .section-product .carousel .carousel-item {
+.section-news .carousel .carousel-item, 
+.section-product .carousel .carousel-item {
   position: relative;
   height: 50vh;
   z-index: 1;
@@ -63,8 +65,7 @@ body {
 }
 
 .section-news .carousel .carousel-image, 
-.section-product .carousel .carousel-image,
-.section-product .other-products .card img {
+.section-product .carousel .carousel-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -82,6 +83,12 @@ body {
 
 .section-product .list-group .list-group-item {
   background: #fcfcfc;
+}
+
+.section-product .other-products .card .card-img-top {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 
 .section-footer {
