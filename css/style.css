@@ -74,7 +74,8 @@ body {
 
 
 .section-reviews {
-  background: #fcfcfc;
+  background: url('../images/section-reviews/bg.svg');
+  background-color: #fcfcfc;
 }
 
 .section-reviews .review img {
