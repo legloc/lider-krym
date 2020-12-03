@@ -4,10 +4,6 @@ body {
   color: #333333;
 }
 
-.navbar-hidden {
-  display: none;
-}
-
 .section {
   position: relative;
   width: 100%;
