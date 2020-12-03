@@ -68,3 +68,10 @@ body {
 .section-news .carousel .carousel-caption {
   z-index: 2;
 }
+
+.section-reviews .review img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
